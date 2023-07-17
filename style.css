@@ -119,24 +119,7 @@
       .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
           top: 0;
       }
-      /* 48em = 768px */
       
-      @media (min-width: 48em) {
-          .header li {
-              float: left;
-          }
-          .header li a {
-              padding: 20px 30px;
-          }
-          .header .menu {
-              clear: none;
-              float: right;
-              max-height: none;
-          }
-          .header .menu-icon {
-              display: none;
-          }
-      }
       /* main starts here */
       
       #home {
@@ -334,3 +317,24 @@
           color: var(--color2);
           text-decoration: none;
       }
+
+      @media (min-width: 768px) {
+        .header li {
+            float: left;
+        }
+        .header li a {
+            padding: 20px 30px;
+        }
+        .header .menu {
+            clear: none;
+            float: right;
+            max-height: none;
+        }
+        .header .menu-icon {
+            display: none;
+        }
+
+        .container-office {
+            margin-bottom: 100px;
+        }
+    }
